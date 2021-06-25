@@ -7,59 +7,54 @@
     xmlns:local="clr-namespace:FlyBodyInSky"
     mc:Ignorable="d"
     Title="Моделирование траектории полёта мяча " 
-    Height="240" 
-    Width="800"
-    MinHeight="240"
-    MaxHeight="240"
-    MinWidth="800"
-    MaxWidth="800">
-    
-    <Grid Margin="0,0,0,-4">
-        
-        <Grid.ColumnDefinitions>
-            
-            <ColumnDefinition 
-                Width="10*"/>
-            
-            <ColumnDefinition 
-                Width="23*"/>
-        </Grid.ColumnDefinitions>
-        
+    Height="396.8" 
+    Width="677.6">
+
+    <Grid Margin="0,0,0.2,-4.4">
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition 
+                Height="5*"/>
+
+            <RowDefinition 
+                Height="39*"/>
+        </Grid.RowDefinitions>
+
         <Canvas 
             x:Name="Canvas1" 
-            Margin="1,10,10,10" 
-            Background="#FFC7E0FF" 
-            MouseLeftButtonDown="Canvas1_MouseLeftButtonDown" 
-            Grid.Column="1"/>
-        
+            Margin="20,5,20.2,19.6" 
+            Background="#808080" 
+            MouseLeftButtonDown="Canvas1_MouseLeftButtonDown" Grid.Row="1"/>
+
         <Label 
             x:Name="label1" 
             Content="Угол: ?" 
             HorizontalAlignment="Left" 
-            Margin="40,21,0,0" 
+            Margin="27,9,0,0" 
             VerticalAlignment="Top" 
-            RenderTransformOrigin="0.491,0.744"/>
-        
+            RenderTransformOrigin="0.491,0.744" Height="26" Width="95"/>
+
         <Label 
             x:Name="label2"
             Content="Скорость: ?" 
             HorizontalAlignment="Left" 
-            Margin="40,52,0,0" 
-            VerticalAlignment="Top"/>
-        
+            Margin="121,9,0,0" 
+            VerticalAlignment="Top" Height="26" Width="118" RenderTransformOrigin="0.45,0.738"/>
+
         <Label 
             x:Name="label3" 
             Content="Дистанция: ?" 
             HorizontalAlignment="Left" 
-            Margin="40,78,0,0" 
-            VerticalAlignment="Top"/>
-        
+            Margin="238,9,0,0" 
+            VerticalAlignment="Top" Height="26" Width="135"/>
+
         <Label 
             x:Name="label4" 
             Content="Время полёта: ?" 
             HorizontalAlignment="Left" 
-            Margin="40,104,0,0" 
-            VerticalAlignment="Top"/>
+            Margin="372,9,0,0" 
+            VerticalAlignment="Top" Height="26" Width="148"/>
 
     </Grid>
 </Window>
