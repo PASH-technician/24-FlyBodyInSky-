@@ -80,7 +80,7 @@ namespace FlyBodyInSky
 
         private bool Calculate()
         {
-            distance = (int) Math.Abs(Math.Sqrt(Math.Pow(position.X - cannon.X, 2) + Math.Pow(position.Y - cannon.Y, 2)));
+            distance = (int) Math.Abs(Math.Sqrt(Math.Pow(position.X - cannon.X, 2)));
             angle = Math.Asin((distance * 9.8f) / Math.Pow(velocity, 2));
             angle = angle / 2;
             double x = 0;
