@@ -1,0 +1,15 @@
+C:\Users\pasha\source\repos\24 (FlyBodyInSky)\bin\Debug\24 (FlyBodyInSky).exe.config
+C:\Users\pasha\source\repos\24 (FlyBodyInSky)\bin\Debug\24 (FlyBodyInSky).exe
+C:\Users\pasha\source\repos\24 (FlyBodyInSky)\bin\Debug\24 (FlyBodyInSky).pdb
+C:\Users\pasha\source\repos\24 (FlyBodyInSky)\obj\Debug\24 (FlyBodyInSky).csproj.AssemblyReference.cache
+C:\Users\pasha\source\repos\24 (FlyBodyInSky)\obj\Debug\MainWindow.g.cs
+C:\Users\pasha\source\repos\24 (FlyBodyInSky)\obj\Debug\App.g.cs
+C:\Users\pasha\source\repos\24 (FlyBodyInSky)\obj\Debug\24 (FlyBodyInSky)_MarkupCompile.cache
+C:\Users\pasha\source\repos\24 (FlyBodyInSky)\obj\Debug\24 (FlyBodyInSky)_MarkupCompile.lref
+C:\Users\pasha\source\repos\24 (FlyBodyInSky)\obj\Debug\MainWindow.baml
+C:\Users\pasha\source\repos\24 (FlyBodyInSky)\obj\Debug\24 (FlyBodyInSky).g.resources
+C:\Users\pasha\source\repos\24 (FlyBodyInSky)\obj\Debug\FlyBodyInSky.Properties.Resources.resources
+C:\Users\pasha\source\repos\24 (FlyBodyInSky)\obj\Debug\24 (FlyBodyInSky).csproj.GenerateResource.cache
+C:\Users\pasha\source\repos\24 (FlyBodyInSky)\obj\Debug\24 (FlyBodyInSky).csproj.CoreCompileInputs.cache
+C:\Users\pasha\source\repos\24 (FlyBodyInSky)\obj\Debug\24 (FlyBodyInSky).exe
+C:\Users\pasha\source\repos\24 (FlyBodyInSky)\obj\Debug\24 (FlyBodyInSky).pdb

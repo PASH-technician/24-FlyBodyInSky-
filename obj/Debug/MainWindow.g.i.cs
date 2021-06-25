@@ -92,7 +92,7 @@ namespace FlyBodyInSky {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/FlyBodyInSky;component/mainwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/24 (FlyBodyInSky);component/mainwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\MainWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
