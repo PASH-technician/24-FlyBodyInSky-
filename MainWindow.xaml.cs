@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -23,7 +24,7 @@ namespace FlyBodyInSky
 
         private Line myLine;
         private Point position;
-        private Point cannon = new Point(40,140);
+        private Point cannon = new Point(40, 200);
         private double distance;
         private double velocity = 100;
         private double angle = 45;
@@ -118,6 +119,11 @@ namespace FlyBodyInSky
                 StrokeThickness = 2,
             };
             Canvas1.Children.Add(myLine);
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }

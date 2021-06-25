@@ -7,10 +7,17 @@
     xmlns:local="clr-namespace:FlyBodyInSky"
     mc:Ignorable="d"
     Title="Моделирование траектории полёта мяча " 
-    Height="396.8" 
-    Width="677.6">
+    Height="390" 
+    Width="670"
+    MinHeight="390"
+    MaxHeight="390"
+    MinWidth="670"
+    MaxWidth="670" Loaded="Window_Loaded">
 
     <Grid Margin="0,0,0.2,-4.4">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
 
@@ -23,9 +30,10 @@
 
         <Canvas 
             x:Name="Canvas1" 
-            Margin="20,5,20.2,19.6" 
+            Margin="20,5.4,20,19.6" 
             Background="#808080" 
-            MouseLeftButtonDown="Canvas1_MouseLeftButtonDown" Grid.Row="1"/>
+            MouseLeftButtonDown="Canvas1_MouseLeftButtonDown" 
+            Grid.Row="1"/>
 
         <Label 
             x:Name="label1" 
