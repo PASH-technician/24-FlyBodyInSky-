@@ -37,6 +37,7 @@ namespace FlyBodyInSky
         private void Canvas1_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             Canvas1.Children.Clear();
+            time = 0;
 
             position = Mouse.GetPosition(Canvas1);
 
